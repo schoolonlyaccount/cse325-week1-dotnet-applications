@@ -1,0 +1,51 @@
+@Learning_Module_6_HostAddress = http://localhost:5105
+
+GET {{Learning_Module_6_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Learning_Module_6_HostAddress}}/pizza/
+Accept: application/json
+
+###
+
+GET {{Learning_Module_6_HostAddress}}/pizza/1
+Accept: application/json
+
+###
+
+GET {{Learning_Module_6_HostAddress}}/pizza/5
+Accept: application/json
+
+###
+
+POST {{Learning_Module_6_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Chicken BBQ",
+    "isGlutenFree": false
+}
+
+###
+
+PUT {{Learning_Module_6_HostAddress}}/pizza/4
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "Pork BBQ",
+    "isGlutenFree": false
+}
+
+###
+
+GET {{Learning_Module_6_HostAddress}}/pizza/4
+Accept: application/json
+
+###
+
+DELETE {{Learning_Module_6_HostAddress}}/pizza/4
+
+###

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Learning-Module-4/1.0.0": {
+        "runtime": {
+          "Learning-Module-4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Learning-Module-4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
